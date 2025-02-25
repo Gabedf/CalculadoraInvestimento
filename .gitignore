@@ -3,3 +3,8 @@ Lib/
 Scripts/
 dist/
 share/
+.gitignore
+build/
+Include/
+main.spec
+pyvenv.cfg
