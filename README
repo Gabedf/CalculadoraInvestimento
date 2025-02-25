@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projeto Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #333;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        code {
+            color: #e74c3c;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Investimentos</h1>
+    </header>
+    
+    <div class="container">
+        <h2>Descrição do Projeto</h2>
+        <p>Este projeto implementa uma calculadora de investimentos, permitindo o cálculo do montante final de um investimento com e sem contribuições periódicas. Ele pode ser configurado para usar diferentes unidades de tempo (dias, meses, anos).</p>
+        
+        <h2>Funcionalidades</h2>
+        <ul>
+            <li>Definir unidade de tempo (dias, meses, anos).</li>
+            <li>Calcular o montante final com base no capital, taxa de juros e tempo.</li>
+            <li>Simular montante final com contribuições periódicas.</li>
+            <li>Exibir gráfico do crescimento do investimento ao longo do tempo.</li>
+        </ul>
+        
+        <h2>Como usar</h2>
+        <ol>
+            <li>Clone este repositório para sua máquina local:</li>
+            <pre><code>git clone https://github.com/seu-usuario/calculator.git</code></pre>
+            <li>Instale as dependências necessárias (exemplo: matplotlib, numpy, etc.).</li>
+            <li>Execute o arquivo principal no terminal:</li>
+            <pre><code>python calculator.py</code></pre>
+            <li>Siga as instruções no terminal para calcular o montante final e gerar gráficos.</li>
+        </ol>
+        
+        <h2>Exemplo de Uso</h2>
+        <pre><code>
+# Exemplo de uso no terminal
+
+1) Definir unidade de tempo (ano, mes, dia)
+2) Calcular montante final
+3) Calcular montante levando em conta contribuições periódicas
+4) Mostrar gráfico do investimento pelo tempo
+0) Encerrar programa
+Escolha: 
+        </code></pre>
+        
+        <h2>Dependências</h2>
+        <ul>
+            <li><strong>matplotlib</strong> - Para gerar gráficos.</li>
+            <li><strong>numpy</strong> - Para cálculos e operações matemáticas.</li>
+        </ul>
+        
+        <h2>Licença</h2>
+        <p>Este projeto está licenciado sob a Licença MIT - veja o arquivo <strong>LICENSE</strong> para mais detalhes.</p>
+    </div>
+
+    <footer>
+        <p>Calculadora de Investimentos - Desenvolvido por Seu Nome</p>
+    </footer>
+</body>
+</html>
