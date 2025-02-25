@@ -3,61 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Repositório de Matérias da Faculdade - IFES</title>
+  <title>Calculadora de Juros Compostos</title>
 </head>
 <body>
 
-<h1>Repositório de Matérias da Faculdade - IFES</h1>
+<h1>Calculadora de Juros Compostos</h1>
 
-<p>Este repositório contém materiais e recursos relacionados aos cursos que estou cursando na faculdade no Instituto Federal do Espírito Santo (IFES). A ideia é centralizar tudo em um único lugar para fácil acesso e referência. O repositório foi criado em julho de 2024, atualmente estou no quarto período da faculdade.</p>
+<p>Este repositório contém um projeto de uma calculadora de juros compostos. A calculadora permite que o usuário simule o crescimento de um capital inicial, com ou sem contribuições periódicas, levando em consideração diferentes taxas de juros e unidades de tempo.</p>
 
-<h2>Estrutura do Repositório</h2>
-
-<h3>Álgebra Linear - 3º Período</h3>
-
-<p>A disciplina de Álgebra Linear (AL) é do terceiro período. Nela tenho pouco contato com programação e mais com a parte matemática, mas possuo um trabalho em que trabalho com convoluções e matrizes, na qual utilizei a linguagem Python por uma escolha pessoal.</p>
-  
-<ul>
-  <li><strong>Trabalho:</strong> Contém um código "main.py" com o código do programa e uma imagem escolhida para teste.</li>
-</ul>
-
-<h3>Estrutura de Dados - 3º Período</h3>
-
-<p>A disciplina de Estrutura de Dados (ED) é do terceiro período. Até este momento, não tivemos contato com a linguagem C, por isso parte do conteúdo é destinado a ensinar o básico sobre a linguagem, como loops, declaração de variáveis, alocação de memória e criação de estruturas.</p>
+<h2>Funcionalidades</h2>
 
 <ul>
-  <li><strong>Trabalhos:</strong> Contém trabalhos e atividades realizados na matéria.</li>
-  <li><strong>Individuais:</strong> Contém estudos adicionais realizados por mim para aprimorar meu conhecimento na matéria, mas que não foram obrigatórios ou avaliados.</li>
+  <li><strong>Definir Unidade de Tempo:</strong> O usuário pode escolher a unidade de tempo para os cálculos entre "ano", "mês" ou "dia".</li>
+  <li><strong>Calcular Montante Final:</strong> Calcula o montante final do investimento sem considerar contribuições periódicas.</li>
+  <li><strong>Simular Contribuições Periódicas:</strong> Simula o efeito das contribuições periódicas no montante final do investimento, além do crescimento do capital inicial.</li>
+  <li><strong>Mostrar Gráfico:</strong> Exibe o gráfico da evolução do montante ao longo do tempo, com ou sem contribuições periódicas.</li>
 </ul>
 
-<h3>Programação Orientada a Objetos - 4º Período</h3>
+<h2>Como Usar</h2>
 
-<p>A disciplina de Programação Orientada a Objetos (POO) é do quarto período. Apesar de não ter tido contato previamente com Java dentro do curso, a disciplina possui um foco em explicar POO enquanto vai explicando Java. Cada semana um novo conteúdo é adicionado de acordo com o que é visto na aula e posto em prática.</p>
+<ol>
+  <li>Clone o repositório em sua máquina local.</li>
+  <li>Instale as dependências necessárias (se houver), como o <code>matplotlib</code> para geração do gráfico:</li>
+  <pre><code>pip install matplotlib</code></pre>
+  <li>Execute o arquivo principal <code>main.py</code> no seu terminal ou IDE preferida.</li>
+  <li>O programa solicitará a entrada de dados como capital, taxa de juros, tempo de investimento e contribuições periódicas.</li>
+  <li>Após inserir os dados, o programa calculará e exibirá o montante final, além de gerar o gráfico de evolução do investimento ao longo do tempo.</li>
+</ol>
+
+<h2>Estrutura do Projeto</h2>
 
 <ul>
-  <li><strong>Aulas:</strong> Contém as atividades práticas feitas em sala de aula.</li>
-  <li><strong>Individuais:</strong> Contém estudos adicionais realizados por mim para aprimorar meu conhecimento na matéria, mas que não foram obrigatórios ou avaliados.</li>
+  <li><strong>calculator.py:</strong> Contém as funções principais da calculadora, como cálculo de juros compostos e simulação com contribuições periódicas.</li>
+  <li><strong>graphics.py:</strong> Contém a função para gerar o gráfico de evolução do investimento.</li>
+  <li><strong>main.py:</strong> Arquivo principal para rodar a calculadora, onde o usuário interage com o programa.</li>
 </ul>
 
-<h3>Programação Funcional - 4º Período</h3>
+<h2>Exemplo de Uso</h2>
 
-<p>A disciplina de Programação Funcional (PF) é do quarto período. Nessa matéria, temos contato com o paradigma funcional e utilizamos a linguagem Haskell. O conteúdo explora funções de ordem superior, recursão e outras características do paradigma funcional.</p>
-
+<p>Ao executar o programa, será exibido um menu de opções. O usuário pode escolher entre as seguintes opções:</p>
 <ul>
-  <li><strong>Aulas:</strong> Atividades de implementação de funções e programas no estilo funcional.</li>
-  <li><strong>Individuais:</strong> Estudos adicionais realizados para melhorar o entendimento sobre a programação funcional.</li>
+  <li>Definir unidade de tempo (ano, mês ou dia)</li>
+  <li>Calcular montante final</li>
+  <li>Simular montante com contribuições periódicas</li>
+  <li>Mostrar gráfico de evolução do investimento</li>
+  <li>Encerrar o programa</li>
 </ul>
 
-<h3>Banco de Dados - 5º Período</h3>
+<h2>Licença</h2>
 
-<p>A disciplina de Banco de Dados (BD) está no quinto período. Esta matéria trata de conceitos fundamentais sobre bancos de dados relacionais, SQL, modelagem de dados e administração de sistemas de banco de dados.</p>
-
-<ul>
-  <li><strong>Trabalhos:</strong> Implementações de consultas SQL e modelagens de dados utilizando ferramentas de bancos de dados.</li>
-  <li><strong>Individuais:</strong> Estudos adicionais de modelagem de dados e consultas complexas em SQL.</li>
-</ul>
-
-<p><em>By Gabriel Leite Fonseca</em></p>
+<p>Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para mais detalhes.</p>
 
 </body>
 </html>
